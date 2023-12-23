@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Default styles */
+.card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive styles for small-sized screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Responsive styles for medium-sized screens */
+  @media (min-width: 768px) {
+    .card-img-top {
+      width: 50%;
+      height: auto;
+    }
+  }
+  
+  /* Responsive styles for large-sized screens */
+  @media (min-width: 992px) {
+    .card-img-top {
+      width: 70%;
+      height: auto;
+    }
+  }
+  
+  /* Responsive styles for extra-large-sized screens */
+  @media (min-width: 1200px) {
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
